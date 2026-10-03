@@ -25,7 +25,7 @@ export const AddProduct = () => {
 
   try {
     const response = await axios.post(
-      "http://localhost:3000/api/v1/addProduct",prodForm,
+      "https://ediu.vercel.app/api/v1/addProduct",prodForm,
       {
        headers:{
         "Content-Type":"multipart/form-data"
